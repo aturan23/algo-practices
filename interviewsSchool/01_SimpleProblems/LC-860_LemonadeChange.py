@@ -4,6 +4,7 @@ Memory Usage: 13.4 MB
 """
 from timeit import default_timer as timer
 
+
 def lemonadeChange(bills):
     """
     :type bills: List[int]
@@ -46,7 +47,8 @@ def lemonadeChange(bills):
 
 
 start = timer()
-result = lemonadeChange([5,5,5,10,20])
+inputValue = [5,5,5,10,20]
+outputValue = lemonadeChange(inputValue)
 end = timer()
 print(end - start)
-print(result)
+print("Output: ", outputValue)

@@ -2,6 +2,8 @@
 Runtime: 28 ms
 Memory Usage: 14.4 MB
 """
+from timeit import default_timer as timer
+
 
 def fizzBuzz(n):
     arr = []
@@ -16,4 +18,10 @@ def fizzBuzz(n):
             arr.append(str(i))
     return arr
 
-print(fizzBuzz(15))
+
+start = timer()
+inputValue = 15
+outputValue = fizzBuzz(inputValue)
+end = timer()
+print(end - start)
+print("Output: ", outputValue)

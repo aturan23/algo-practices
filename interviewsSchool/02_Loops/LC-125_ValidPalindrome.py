@@ -2,6 +2,7 @@
 Runtime: 32 ms
 Memory Usage: 15.5 MB
 """
+from timeit import default_timer as timer
 
 
 def isPalindrome(s):
@@ -22,7 +23,9 @@ def isPalindrome(s):
     return True
 
 
+start = timer()
 inputValue = "A man, a plan, a canal: Panama"
 outputValue = isPalindrome(inputValue)
-
+end = timer()
+print(end - start)
 print("Output: ", outputValue)

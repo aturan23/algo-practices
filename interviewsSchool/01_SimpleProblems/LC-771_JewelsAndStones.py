@@ -2,6 +2,7 @@
 Runtime: 24 ms
 Memory Usage: 13.4 MB
 """
+from timeit import default_timer as timer
 
 
 def numJewelsInStones(jewels, stones):
@@ -20,4 +21,9 @@ def numJewelsInStones(jewels, stones):
 
     return number
 
-print(numJewelsInStones("aA", "aAAbbbb"))
+
+start = timer()
+outputValue = numJewelsInStones("aA", "aAAbbbb")
+end = timer()
+print(end - start)
+print("Output: ", outputValue)

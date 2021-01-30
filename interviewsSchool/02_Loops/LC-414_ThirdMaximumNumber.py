@@ -2,6 +2,7 @@
 Runtime: 56 ms
 Memory Usage: 14.6 MB
 """
+from timeit import default_timer as timer
 
 
 def thirdMax(nums):
@@ -36,4 +37,9 @@ def thirdMax(nums):
     return maximum
 
 
-print(thirdMax([3, 2, 1, 3, 54, 10]))
+start = timer()
+inputValue = [3, 2, 1, 3, 54, 10]
+outputValue = thirdMax(inputValue)
+end = timer()
+print(end - start)
+print("Output: ", outputValue)
