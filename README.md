@@ -21,4 +21,4 @@
 **13.02.21** - 977, 1089
 
 Solved with problems: 53
-Not solved: 334
+Not solved: 334, 88
