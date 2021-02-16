@@ -1,6 +1,6 @@
 """
-Runtime: 44 ms
-Memory Usage: 14.7 MB
+Runtime: 88 ms
+Memory Usage: 19.7 MB
 """
 from timeit import default_timer as timer
 
@@ -10,7 +10,7 @@ def containsDuplicate(nums):
     :type nums: List[int]
     :rtype: bool
     """
-    return len(set(nums)) != len(nums)
+    return not len(set(nums)) == len(nums)
 
 
 start = timer()
