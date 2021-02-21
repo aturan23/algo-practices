@@ -24,5 +24,7 @@
 
 **16.02.21** - 242, 217, 215
 
+**21.02.21** - 234(Swift)
+
 Solved with problems: 53
 Not solved: 334, 88
