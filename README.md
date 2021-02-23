@@ -28,5 +28,7 @@
 
 **22.02.21** - 303(Swift), 304(Swift)
 
+**23.02.21** - 500(Swift)
+
 Solved with problems: 53
 Not solved: 334, 88
