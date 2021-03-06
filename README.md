@@ -40,5 +40,7 @@
 
 **5.03.21** - 13(Swift)
 
+**6.03.21** - 442(Swift)
+
 Solved with problems: 53
 Not solved: 334, 88
