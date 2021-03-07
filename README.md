@@ -42,5 +42,7 @@
 
 **6.03.21** - 442(Swift)
 
+**7.03.21** - 88(Swift)
+
 Solved with problems: 53
-Not solved: 334, 88
+Not solved: 334
