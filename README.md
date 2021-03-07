@@ -42,7 +42,7 @@
 
 **6.03.21** - 442(Swift)
 
-**7.03.21** - 88(Swift)
+**7.03.21** - 88(Swift), 237(Swift), 206(Swift)
 
 Solved with problems: 53
 Not solved: 334
