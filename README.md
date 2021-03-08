@@ -44,7 +44,7 @@
 
 **7.03.21** - 88(Swift), 237(Swift), 206(Swift)
 
-**8.03.21** - 27(Swift), 26(Swift)
+**8.03.21** - 27(Swift), 26(Swift), 1346(Swift)
 
 Solved with problems: 53
 Not solved: 334
